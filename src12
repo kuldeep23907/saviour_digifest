@@ -1,0 +1,8 @@
+echo "server ip address" 
+read ip
+while [ 1 ]
+do
+
+./a.out $ip 0
+sleep 2s
+done 

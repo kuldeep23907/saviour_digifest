@@ -1,0 +1,10 @@
+echo "server ip address"
+read ip
+while [ 1 ]
+do
+RANGE=150
+number=$RANDOM
+let "number %=$RANGE"
+./a.out $ip $number
+sleep 2s
+done

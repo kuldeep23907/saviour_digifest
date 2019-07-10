@@ -1,2 +1,3 @@
 # saviour_digifest
-all the files related to the project for digifest 2017
+
+An application which senses the weight and initiates an alarm when the threshold is crossed. Used as a suicide prevention app.
